@@ -1,0 +1,334 @@
+header{
+    width: 100%;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    padding: 6px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+#brand_name{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    float: left;
+    margin-left: 24px;
+}
+#tag_line{
+    float: right;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-family: century gothic;
+    margin-right: 24px;
+}
+nav{
+    width: 100%;
+    height: 106px;
+    background: rgb(252,244,67);
+background: linear-gradient(90deg, rgba(252,244,67,1) 0%, rgba(248,162,50,1) 70%);
+    float: left;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#search{
+    width: 400px;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+}
+#search-btn{
+    width: 100px;
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+    border: none;
+    margin-left: 3px;
+    font-size: 16px;
+
+}
+#menu_table{
+    width: 600px;
+    height: 40px;
+    float: right;
+    box-sizing: border-box;
+}
+#menu_item{
+    background-color: white;
+    width: 20%;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    height: 1650px;
+    float: left;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    padding: 30px;
+}
+#venue{
+    float: left;
+}
+#phone{
+    float: right;
+}
+#popular-sweets-box{
+    width: 1200px;
+    height: 550px;
+    float: left;
+    box-sizing: border-box;
+   background-color: #f9bd38;
+    padding: 25px;
+    margin-top: 20px;
+}
+#popular-sweets-title{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-variant: capitalize;
+    padding: 0px;
+    margin-top: -12px;
+    margin-bottom: -2px;
+
+}
+#popular-sweet_img{
+    width: 350px;
+    height: 189px;
+    margin: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+}
+#rate_list_box{
+    width: 400px;
+    height: 450px;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+#rate_header{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: century gothic;
+    font-size: 25px;
+}
+#rate_content{
+    background-color: blue;
+}
+#s_name{
+   color: white; 
+   font-family: century gothic;
+   font-size: 22px;
+   padding: 10px;
+   border-bottom-width: 2px;
+   border-bottom-style: solid;
+   border-bottom-color: white;
+}
+#rate{
+    list-style: none;
+}
+fieldset{
+    width: 690px;
+    height: 550px;
+    float: left;
+    margin-top: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 10px;
+
+}
+legend{
+    font-family: century gothic;
+    font-size: 30px;
+    font-weight: bold;
+}
+#order_online{
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+#order_input{
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    margin-top: 5px;
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+#submit_btn:hover{
+    background-color: blue;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+#submit_btn{
+    padding: 10px;
+    font-size: 15px;
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    background-color: white;
+}
+
+
+#abt_us{
+    width: 450px;
+    height: 550px;
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    margin-top: 67px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#abt_title{
+    text-align: center;
+    font-family: century gothic;
+    font-size: 30px;
+
+}
+#abt_text{
+    text-align: justify;
+    font-family: sans-serif;
+    line-height: 28px;
+    background-image: url(e.jpg);
+    color: white;
+}
+#m_sweets{
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+#More_sweets{
+    text-align: center;
+    font-family: century gothic;
+    font-size: 30px;
+}
+#sweets{
+    width: 218px;
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    float: left;
+    box-sizing: border-box;
+    margin-right: 46px;
+    margin-bottom: 30px;
+}
+
+#sweets_end{
+    width: 218px;
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    float: left;
+    box-sizing: border-box;
+}
+#sweet_pic{
+    width: 180px;
+    height: 150px;
+    margin: 16px;
+}
+#buy_btn{
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ccc;
+    width: 100px;
+    background-color: white;
+    
+}
+
+#buy_btn:hover{
+    background-color: blue;
+    color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+footer{
+    width: 100%;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    background-color: black;
+
+}
+#contact_us{
+    width: 400px;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+   
+}
+#social_link{
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    float: right;
+}
+#contact_title{
+    color: white;
+    font-family: sans-serif;
+}
+#contact_details{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+#social_logo{
+    width: 40px;
+    padding: 10px;
+}
+#developer{
+    color: white;
+    float: left;
+    font-family: century gothic;
+    margin-top: 200px;
+    margin-left: 120px;
+
+}
